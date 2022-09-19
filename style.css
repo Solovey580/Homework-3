@@ -1,0 +1,442 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.first-banner{
+    display: flex;
+    padding: 16px 120px;
+    background-color: #0B2239;
+    width: 1440px;
+    height: 72px;
+    margin-left: 24px;
+    
+}
+
+.first-paragraph{
+    width: 922px;
+    margin-right: 32px;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+
+}
+
+.section-B1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 246px;
+    height: 36px;
+    
+}
+
+.banner-link{
+    height: 16px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4AD295;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Clik-button-one{
+    width: 130px;
+    height: 36px;
+    background-color: #4AD295;
+    border-radius: 1px;
+    color: white;
+    font-size: 12px;
+    border: none;
+}
+
+
+
+/*Банер номер 2*/
+
+.second-banner{
+    width: 1440px;
+    height: 52px;
+    margin-top: 24px;
+    margin-left: 24px;
+    display: flex;
+    background-color: #2B2627;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-banner-1{
+    color: #fff;
+    font-size: 16px;
+    margin-right: 8px;
+
+}
+
+
+.text-cookies{
+    padding-top: 16px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.agree-me{
+    padding-left: 3px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.cross-button{
+    background-color: #2B2627;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Банер і дві кнопки Decline-Allow*/
+.banner-blok-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 72px;
+    margin-left: 24px;
+    margin-top: 72px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.vector-banner{
+    width: 36px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.text-box-three{
+    font-size: 15px;
+    width: 400px;
+    color: #000;
+    margin-top: 16px;
+
+}
+.read-cookies{
+    font-size: 14px;
+    color: #EA4C89;
+    text-decoration: none;
+}
+
+.decline-btn-3{
+    width: 63px;
+    height: 28px;
+    margin-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px ;
+}
+.allow-button{
+    width: 52px;
+    height: 28px;
+
+    background-color: #EA4C89;
+    border: none;
+    margin-right: 16px;
+    border-radius: 8px ;
+}
+
+
+
+/* Банер і button-Okay*/
+
+.box-size-four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 560px;
+    height: 64px;
+    margin-left: 24px;
+    margin-top: 24px;
+    background-color: #26262B;
+    border-radius: 10px;
+    letter-spacing: normal;
+
+}
+
+
+.box-size-tex{
+    width: 469px;
+    font-family: 'Inter';
+    line-height: 20px;
+    color: white;
+    margin-left: 16px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+
+.cooke-policy-4{
+    color: #E6842E;
+    text-decoration: none;
+}
+
+.button-okay{
+    width: 49px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+    border-radius: 8px;
+
+}
+
+
+/* 2 Банерb і cookies notice-settings*/
+
+.cookie-notice-settings{
+    
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two-tex-box{
+    font-family: 'Roboto', sans-serif;
+
+    width: 360px;
+    height: 206px;
+    border-radius: 6px;
+    background-color: rgba(28, 37, 64, 0.95);
+    color: white;
+    padding: 24px;
+    margin-left: 24px;
+    margin-top: 72px;
+}
+
+.img-cookie-notice{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.tex-title-1{
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+}
+
+.policy{
+    color: white;
+}
+
+.button-tex-title-box{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.preferences-tex{
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.accept-button{
+    width: 84px;
+    height: 32px;
+    background-color: #09B3AF;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+/*Другий блок поруч*/
+
+.blok-title-tex{
+    
+    margin: 36px 0 0 40px;
+    width: 360px;
+    height: 170px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+}
+
+
+.img-cookie-settings{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.tex-title-2{
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.Button-tex-look{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.img-Manage-cookies{
+    width: 160px;
+    height: 32px;
+    border-radius: 6px;
+    padding: auto;
+    color: #687F8C;
+    cursor: pointer;
+    border: none;
+}
+.img-Accept-all{
+    width: 160px;
+    height: 32px;
+    border-radius: 6px;
+    background-color: #40C1A7;
+    color: white;
+    cursor: pointer;
+    border: none;
+
+}
+
+
+
+
+/*Остальніх два блока*/
+
+.blok-1-2{
+    width: 680px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-left: 24px;
+}
+
+.blok1-Cokies{
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 32px;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+
+.title-size-Cookies{
+    font-family: 'Roboto', sans-serif;
+    font-style: 'Bolt';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    color: #15295A;
+    
+    
+}
+
+.paragraph-tex-box{
+    
+    font-size: 16px;
+    line-height: 24px;
+    color: #15295A;
+    margin-right: 25px;
+    margin-left:25px ;
+}
+
+.knob-accept{
+    width: 121px;
+    height: 44px;
+    border-radius: 43px;
+    background-color: #4A7EFF;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    border: none;
+    padding: 10px 32px;
+    cursor: pointer;
+    
+}
+
+
+/*Остальній блок банер*/
+
+
+.baner-care-about{
+    display: inline-block;
+    align-items: center;
+    background-color: #FFF;
+    margin-left: 40px;
+    height: 127px;
+    width: 320px;
+    padding: 16px;
+    font-weight: 400px;
+    
+    
+
+}
+
+.paragraph-tex-box-2{
+    width: 288px;
+    height: 60px;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 12px;
+    font-weight: 400px;
+}
+
+.nav-button{
+    width: 288px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Privacy-Policy{
+    color: #6666FF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    margin-bottom: 16px;
+    
+}
+
+.Accept{
+    
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #6666FF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 16px;
+    
+}
